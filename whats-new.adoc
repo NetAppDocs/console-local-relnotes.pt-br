@@ -14,4 +14,103 @@ summary: Saiba mais sobre as alterações mais recentes nos recursos e serviços
 
 
 [role="lead"]
-Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte da implantação local do NetApp Console.
+Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console local deployment.
+
+
+
+[[10-august-2026]]
+== 10 de agosto de 2026
+
+Diretiva não resolvida em <stdin> - include::_include/console-local.adoc[] :leveloffset: +1
+
+
+
+[[introducing-netapp-console-local-deployment]]
+=== Apresentando a implantação local do NetApp Console
+
+https://docs.netapp.com/us-en/console-local/netapp-console-local.html["Saiba como implantar localmente o NetApp Console"].
+
+
+
+[[13-july-2026]]
+== 13 de julho de 2026
+
+
+
+[[backup-and-recovery]]
+=== Backup and Recovery
+
+
+
+==== Suporte aprimorado para múltiplos buckets em todas as cargas de trabalho
+
+NetApp Backup and Recovery agora oferece suporte à proteção das cargas de trabalho em um sistema com até 100 buckets em diferentes provedores de nuvem. ONTAP 9.19.1 ou posterior é necessário para oferecer suporte a mais de 6 buckets por sistema.
+
+Para obter detalhes sobre NetApp Backup and Recovery, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/concept-backup-to-cloud.html["Saiba mais sobre NetApp Backup and Recovery"].
+
+
+
+[[15-june-2026]]
+== 15 de junho de 2026
+
+
+
+[[backup-and-recovery]]
+=== Backup and Recovery
+
+
+
+==== Aprimoramentos de cargas de trabalho do Kubernetes
+
+Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:
+
+* *Trident Protect 26.06*: Esta versão inclui Trident Protect 26.06.
+* *Ignorar a criação de aplicativos durante a restauração*: Agora você pode ignorar a criação automática de objetos de recursos personalizados de aplicativos durante as operações de restauração. Isso reduz entradas desnecessárias no inventário de aplicativos.
+* *Restaure os persistent volume claims da máquina virtual*: Ao restaurar aplicativos baseados em máquina virtual, agora você pode restaurar persistent volume claims individuais sem restaurar toda a máquina virtual, tornando a recuperação mais rápida quando discos ou volumes específicos são afetados por corrupção ou perda de dados.
+* *Aprimoramentos no monitoramento de tarefas*: O monitoramento de tarefas agora oferece maior visibilidade das tarefas de proteção do Kubernetes. Você pode visualizar informações detalhadas sobre o status das tarefas e subtarefas e ver o armazenamento de destino usado por cada uma.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
+
+
+
+[[08-june-2026]]
+== 08 de junho de 2026
+
+
+
+[[backup-and-recovery]]
+=== Backup and Recovery
+
+
+
+==== Aprimoramentos nas cargas de trabalho do ONTAP Volumes
+
+Nesta versão, as cargas de trabalho do ONTAP Volumes introduzem a seguinte melhoria:
+
+*Suporte para storage de nuvem compatível com S3*: NetApp Backup and Recovery para cargas de trabalho de Volumes agora oferece suporte a backup em storage de nuvem compatível com S3.
+
+Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Visão geral das cargas de trabalho do Protect ONTAP Volumes"].
+
+
+
+==== Aprimoramentos nas cargas de trabalho do Hyper-V
+
+Nesta versão, as cargas de trabalho do Hyper-V introduzem as seguintes melhorias:
+
+* *Aprimoramentos na restauração de arquivos e pastas para uma máquina virtual convidada*: Agora você pode restaurar arquivos e pastas de um snapshot no storage primário ou secundário para uma máquina virtual Windows convidada. Esse recurso agora é compatível com VMs CIFS e SAN.
+* *Os grupos de proteção agora usam o agendamento de fuso horário do host*: Os grupos de proteção agora usam o fuso horário do host Hyper-V. Os grupos de proteção criados antes da introdução do agendamento de fuso horário do host continuam usando o horário configurado anteriormente (normalmente UTC). Para atualizar esses grupos de proteção para usar o fuso horário do host Hyper-V, você deve recriar os agendamentos. Consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protection-groups.html["Crie e gerencie grupos de proteção para cargas de trabalho do Hyper-V"] para mais informações.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Visão geral da proteção de cargas de trabalho do Hyper-V"].
+
+
+
+==== Aprimoramentos de cargas de trabalho da VMware
+
+Nesta versão, VMware workloads apresenta a seguinte melhoria:
+
+* *Os grupos de proteção agora usam o agendamento pelo fuso horário do host*: Os grupos de proteção agora usam o fuso horário do servidor VMware vCenter que os hospeda. Os grupos de proteção criados antes da introdução do agendamento pelo fuso horário do host continuam a ser executados no fuso horário configurado anteriormente (normalmente UTC). Para usar o fuso horário do vCenter, você deve recriar os agendamentos. Consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Crie e gerencie grupos de proteção para cargas de trabalho VMware"] para mais informações.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Visão geral da proteção de VMware workloads"].
