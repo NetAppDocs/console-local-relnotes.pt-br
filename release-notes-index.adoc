@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: Veja o conjunto completo de notas de versão para os recursos de implantação local do NetApp Console e os serviços de dados do NetApp. 
+---
+= Índice de notas de lançamento
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Veja o conjunto completo de notas de versão para os recursos de implantação local do NetApp Console e os serviços de dados do NetApp.
+
+
+
+[[netapp-console-local-deployment]]
+== NetApp Console implantação local
+
+* https://docs.netapp.com/us-en/console-local/whats-new.html["NetApp Console implantação local"^]
+
+
+
+
+[[data-services]]
+== Serviços de dados
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Backup and Recovery"^]
+

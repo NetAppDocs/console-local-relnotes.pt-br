@@ -1,0 +1,29 @@
+---
+indexpage:
+  title: NetApp Console notas de versão da implantação local
+  summary: Saiba mais sobre as alterações mais recentes nos recursos e serviços de
+    dados que fazem parte do NetApp Console local deployment. Para obter um histórico
+    completo de versões, acesse o conjunto completo de notas de versão de cada serviço
+    individual.
+  keywords: release notes, enhancements, what's new, netapp console local deployment,
+    console local deployment, local, netapp data services
+  lead: Estas notas de versão descrevem as melhorias recentes na implantação local
+    do NetApp Console e nos serviços de dados que ele suporta. Links para o conjunto
+    completo de notas de versão de cada serviço individual.
+  tiles:
+  - title: O que há de novo
+    links:
+    - title: Alterações recentes na implantação local do NetApp Console
+      url: whats-new.html
+  - title: Notas de lançamento por serviço
+    links:
+    - title: Índice de notas de lançamento
+      url: release-notes-index.html
+  - title: Blogs e comunidade
+    links:
+    - title: NetApp Console implantação local
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: Comunidade NetApp
+      url: https://community.netapp.com/
