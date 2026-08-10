@@ -21,12 +21,14 @@ Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados
 [[10-august-2026]]
 == 10 de agosto de 2026
 
-Diretiva não resolvida em <stdin> - include::_include/console-local.adoc[] :leveloffset: +1
+
+
+[[netapp-console-local-deployment]]
+=== NetApp Console implantação local
 
 
 
-[[introducing-netapp-console-local-deployment]]
-=== Apresentando a implantação local do NetApp Console
+==== Apresentando a implantação local do NetApp Console
 
 https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["Saiba como implantar localmente o NetApp Console"].
 
