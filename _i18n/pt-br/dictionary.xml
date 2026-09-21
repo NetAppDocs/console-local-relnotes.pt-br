@@ -99,4 +99,8 @@
   <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">Saiba mais sobre a proteção de volumes do ONTAP com NetApp Backup e Recuperação</block>
   <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte <block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16 de setembro de 2026</block>
+  <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Esta versão inclui Trident Protect 26.09.</block>
+  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*Controle de acesso baseado em funções com granularidade de cluster e namespace*: Durante a descoberta de clusters do Kubernetes, você pode controlar o acesso a recursos selecionando um projeto ou pasta para associar ao novo cluster. Você também pode registrar namespaces específicos para controle de acesso. Isso permite um controle de acesso mais granular no nível do cluster ou do namespace.</block>
+  <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restaurar arquivos e pastas*: Agora você pode restaurar ou baixar arquivos e pastas específicos de backups de aplicativos baseados em máquinas virtuais do Kubernetes.</block>
+  <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 de setembro de 2026</block>
 </blocks>
