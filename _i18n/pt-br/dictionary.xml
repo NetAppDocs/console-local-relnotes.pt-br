@@ -91,7 +91,6 @@
   <block id="d2a0f46558d1ad15a1efcaa26aef1b39" category="inline-link">Conheça as diferenças entre a implantação local do NetApp Console, o NetApp Console SaaS e o modo privado</block>
   <block id="fc43c258a671e0d243e8a95a48956300" category="paragraph"><block ref="a79ef635b40614d2cd5c555de517dd6f" category="inline-link-rx"></block>.</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">Nesta versão, as cargas de trabalho KVM, Hyper-V e VMware introduzem a seguinte melhoria:</block>
-  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*Seleção de credencial durante a descoberta do host da máquina virtual*: Ao registrar um host KVM, Hyper-V ou VMware, agora você pode usar a credencial que já adicionou ao NetApp Backup and Recovery.</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*Proteção de disco abrangente para VMs*: Para configurações CIFS, o NetApp Backup and Recovery agora oferece suporte à proteção de cada disco conectado a cada VM em um grupo de proteção. Isso inclui arquivos distribuídos em vários volumes ONTAP ou sistemas de armazenamento ONTAP (discos abrangentes) e arquivos limitados a um único local.</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">Aprimoramento das cargas de trabalho do ONTAP Volumes</block>
   <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">Nesta versão, o ONTAP Volumes introduz a seguinte melhoria em versão prévia para cargas de trabalho:</block>
@@ -103,4 +102,7 @@
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*Controle de acesso baseado em funções com granularidade de cluster e namespace*: Durante a descoberta de clusters do Kubernetes, você pode controlar o acesso a recursos selecionando um projeto ou pasta para associar ao novo cluster. Você também pode registrar namespaces específicos para controle de acesso. Isso permite um controle de acesso mais granular no nível do cluster ou do namespace.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restaurar arquivos e pastas*: Agora você pode restaurar ou baixar arquivos e pastas específicos de backups de aplicativos baseados em máquinas virtuais do Kubernetes.</block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 de setembro de 2026</block>
+  <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Melhoria geral em NetApp Backup and Recovery</block>
+  <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Seleção de credenciais durante a descoberta de hosts de máquinas virtuais*: Ao descobrir um host KVM, Hyper-V ou VMware, agora você pode usar as credenciais que já adicionou ao NetApp Backup and Recovery.</block>
+  <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Aprimoramento das cargas de trabalho do Hyper-V</block>
 </blocks>
