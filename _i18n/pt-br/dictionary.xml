@@ -126,4 +126,5 @@
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">Saiba mais sobre como proteger cargas de trabalho do Microsoft SQL Server com NetApp Backup and Recovery</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Para obter detalhes sobre como proteger as cargas de trabalho do Microsoft SQL Server, consulte<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>.</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">12 de outubro de 2026</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Filtragem personalizada por intervalo de datas do Job Monitor*: agora você pode pesquisar tarefas dos últimos 90 dias selecionando uma data de início e término personalizada em um calendário no Job Monitor.</block>
 </blocks>
