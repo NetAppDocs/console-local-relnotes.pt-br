@@ -18,6 +18,28 @@ Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados
 
 
 
+[[09-november-2026]]
+== 09 de novembro de 2026
+
+
+
+[[backup-and-recovery]]
+=== Backup and Recovery
+
+
+
+==== Aprimoramento das cargas de trabalho do Hyper-V
+
+Nesta versão, o NetApp Backup and Recovery apresenta o seguinte aprimoramento para cargas de trabalho do Hyper-V:
+
+*Melhorias no suporte ao NetApp MetroCluster*: o NetApp Backup and Recovery agora oferece suporte à proteção de hosts Hyper-V em uma configuração de NetApp MetroCluster antes e depois de operações de switchover ou switchback.
+
+Para obter mais informações sobre como proteger hosts Hyper-V em uma configuração NetApp MetroCluster, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-discover-hyperv.html["Descubra e gerencie as cargas de trabalho do Hyper-V"^].
+
+Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Saiba mais sobre como proteger cargas de trabalho do Hyper-V com o NetApp Backup and Recovery"^].
+
+
+
 [[26-october-2026]]
 == 26 de outubro de 2026
 
@@ -243,117 +265,3 @@ Nesta versão, o ONTAP Volumes introduz a seguinte melhoria em versão prévia p
 *Relatório diário de transferência de dados de backup*: NetApp Backup and Recovery para Volumes agora inclui um relatório diário de transferência de dados de backup na guia Relatórios, oferecendo a você visibilidade da atividade diária de transferência de dados de backup e replicação em todo o seu ambiente. Você pode gerar o relatório para toda a conta ou para sistemas de armazenamento selecionados, filtrar por intervalo de datas e tipo de proteção e baixar os resultados como um arquivo CSV.
 
 Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Saiba mais sobre a proteção de volumes do ONTAP com NetApp Backup e Recuperação"].
-
-
-
-[[17-august-2026]]
-== 17 de agosto de 2026
-
-
-
-[[backup-and-recovery]]
-=== Backup and Recovery
-
-
-
-==== Aprimoramentos nas cargas de trabalho do Hyper-V
-
-Nesta versão, o Hyper-V introduz a seguinte melhoria:
-
-*Restaurar backup de storage de objetos para um local alternativo*: Agora você pode restaurar VMs, arquivos e pastas do Hyper-V do storage de objetos para um local de armazenamento alternativo.
-
-Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Saiba mais sobre como proteger cargas de trabalho do Hyper-V com o NetApp Backup and Recovery"].
-
-
-
-==== Aprimoramentos de cargas de trabalho do Kubernetes
-
-Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:
-
-* *Trident Protect 26.08*: Esta versão inclui Trident Protect 26.08.
-* *Repetições de backup*: Agora você pode habilitar as repetições de backup e configurar o número de tentativas de repetição e os intervalos entre as tentativas como configurações avançadas nas políticas de proteção do Kubernetes.
-* *Sucesso parcial do backup*: Agora você pode configurar definições avançadas nas políticas de proteção do Kubernetes para continuar o backup mesmo quando recursos individuais falharem, permitindo que os trabalhos de backup sejam concluídos com sucesso parcial. Isso permite que você restaure os recursos de backup mesmo que alguns recursos falhem durante a operação de backup.
-* *Backups consistentes com falhas e consistentes com VM*: o serviço Backup and Recovery para o NetApp Console agora permite configurar políticas de proteção que criam backups ou snapshots consistentes com falhas ou consistentes com VM. Você também pode personalizar como os congelamentos de VM são realizados durante a operação de proteção.
-* *Reconectar o cluster Kubernetes após a alteração do IP do agente do Console*: o serviço de Backup and Recovery para o NetApp Console agora permite que você reconecte um cluster ao seu agente do Console se o endereço IP do agente for alterado.
-* *Migrar cluster para o novo agente do Console*: O serviço NetApp Backup and Recovery para o NetApp Console agora permite que você migre um cluster para um novo agente do Console se o agente original falhar ou for excluído, garantindo proteção ininterrupta do aplicativo.
-
-
-Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Saiba mais sobre como proteger cargas de trabalho do Kubernetes com NetApp Backup and Recovery"].
-
-
-
-==== Aprimoramento das cargas de trabalho do Oracle Database
-
-Nesta versão, as cargas de trabalho do Oracle Database introduzem as seguintes melhorias:
-
-* *Restauração de Pluggable Database (PDB)*: Agora você pode restaurar pluggable databases (PDBs) e tablespaces de PDBs individuais, incluindo recuperação para um ponto no tempo.
-* *Clonagem de banco de dados plugável (PDB)*: Agora você pode clonar um único PDB em um banco de dados de contêiner (CDB) de destino existente e, opcionalmente, excluir PDBs ao clonar um banco de dados de contêiner completo.
-
-
-Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Saiba mais sobre como proteger as cargas de trabalho do Oracle Database com NetApp Backup and Recovery"].
-
-
-
-[[10-august-2026]]
-== 10 de agosto de 2026
-
-
-
-[[netapp-console-local-deployment]]
-=== NetApp Console implantação local
-
-
-
-==== Apresentando a implantação local do NetApp Console
-
-https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["Saiba como implantar localmente o NetApp Console"].
-
-https://docs.netapp.com/us-en/console-local/console-differences.html["Conheça as diferenças entre a implantação local do NetApp Console, o NetApp Console SaaS e o modo privado"].
-
-
-
-[[backup-and-recovery]]
-=== Backup and Recovery
-
-
-
-==== Melhorias gerais em NetApp Backup and Recovery
-
-* *Suporte para implantação local do NetApp Console*: Esta versão do NetApp Backup and Recovery oferece suporte à implantação local do NetApp Console em status de prévia.
-* *90 dias de retenção de tarefas*: O NetApp Backup and Recovery agora retém as informações das tarefas no Monitor de Tarefas por 90 dias.
-
-
-
-
-==== Aprimoramentos de cargas de trabalho da VMware
-
-Nesta versão, VMware workloads apresenta as seguintes melhorias:
-
-* *Suporte para restauração em local alternativo para VMs SAN*: Agora você pode restaurar backups de VMs baseadas em SAN para um local alternativo.
-* *Suporte para exclusão de vários backups*: Agora você pode excluir vários backups de uma só vez.
-
-
-Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Visão geral da proteção de VMware workloads"].
-
-
-
-==== Aprimoramentos de cargas de trabalho do Kubernetes
-
-Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:
-
-* *Suporte prévio para recursos isolados da internet*: Se você estiver executando o NetApp Backup and Recovery em uma implantação local do NetApp Console, você pode descobrir, proteger e restaurar recursos do Kubernetes isolados da internet. Este recurso está em prévia para este lançamento.
-
-
-Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
-
-
-
-==== Aprimoramentos nas cargas de trabalho do ONTAP Volumes
-
-Nesta versão, as cargas de trabalho do ONTAP Volumes introduzem as seguintes melhorias:
-
-* *Priorize tarefas de restauração em relação ao backup*: agora você pode priorizar tarefas de restauração em relação às tarefas de backup ao restaurar volumes, arquivos ou pastas.
-* *Descubra os sistemas ONTAP e volumes sem ativar o NetApp Backup and Recovery*: Agora você pode descobrir sistemas e volumes sem ativar o NetApp Backup and Recovery.
-
-
-Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Visão geral das cargas de trabalho do Protect ONTAP Volumes"].
